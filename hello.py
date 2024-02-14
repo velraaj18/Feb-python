@@ -1,8 +1,9 @@
-def firstProgram():
-    print(True and False);  # and gives the first operand if its false or 0, Otherwise returns second operand.
+expr = 10 + 20 * 30
+print(expr) 
+name = "Alex"
+age = 0
 
-def main():
-    firstProgram();
-    
-if __name__ == "__main__":
-    main();
+if name == "Alex" or name == "John" and age >= 2: 
+	print("Hello! Welcome.") 
+else: 
+	print("Good Bye!!") 
