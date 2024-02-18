@@ -1,8 +1,8 @@
 class overload:
    def __init__(self,value):
-      self.value= value              #initializes an attribute value
+      self.b= value              #initializes an attribute value
    def __add__(self,a):
-      return(self.value+a.value)      # two instances of the class 
+      return(self.b+a.b)      # two instances of the class 
 
 def main():
    obj1 =overload(2)
